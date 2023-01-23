@@ -1,6 +1,6 @@
 ---
 title: test
-author: Hsiang Nianian
+author: [Hsiang Nianian]
 type: post
 date: 2023-01-23T10:29:34.197Z
 lastmod: ""
@@ -9,7 +9,7 @@ featuredpath: img/post
 draft: false
 showtoc: true
 ---
-## T﻿est
+## Test
 
 ```js
 function Clock(props) {
