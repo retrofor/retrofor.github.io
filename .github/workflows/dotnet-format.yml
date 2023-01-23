@@ -13,18 +13,12 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
-      
-      - name: Install dotnetCampus.EncodingNormalior
-        run: dotnet tool update -g dotnetCampus.EncodingNormalior
-
-      - name: Fix encoding
-        run: EncodingNormalior -f . --TryFix true
-
+          
       - name: Install dotnet-format
         run: dotnet tool install -g dotnet-format
 
-      - name: Run dotnet format
-        run: dotnet format
+      - name: Fix encoding
+        run: EncodingNormalior -f . --TryFix true
 
       - name: Commit files
         run: |
@@ -43,7 +37,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           # 以下是给定代码审查者，需要设置仓库有权限的开发者
-          assignees: lindexi,walterlv
-          reviewers: lindexi,walterlv
+          assignees: HsiangNianian
+          reviewers: HsiangNianian
           # 对应的上传分支
-          branch: t/bot/fix-codeformatting
+          branch: master
