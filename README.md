@@ -1,6 +1,6 @@
 <p align="center"><img width="128" src="https://github.com/retrofor/retro/raw/main/119327113.png"></p>
 <h1 align="center">
-  retro
+  retro docs
 </h1>
 <p align="center">
   Cross-platform robot framework, mainly used for ML.
