@@ -7,7 +7,7 @@
 </p>
 <p align="center">
   <a style="text-decoration:none" href="https://github.com/retrofor/retrofor.github.io/releases" target="_blank">
-    <img src="https://img.shields.io/github/release/retrofor/retrofor.github.io.svg?label=Latest%20version" alt="Latest version" />
+    <img src="https://img.shields.io/github/release/retrofor/retrofor.github.io.svg" alt="Latest version" />
   </a>
   <br>
   <a style="text-decoration:none" href="https://github.com/retrofor/retrofor.github.io/actions/workflows/Testing.yml" target="_blank">
