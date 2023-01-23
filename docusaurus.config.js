@@ -118,10 +118,17 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/HsiangNianian',
               },
+              { 
+                 html: ` 
+                 <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify"> 
+                   <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" width="114" height="51" /> 
+                 </a> 
+               `, 
+               },
             ],
           },
         ],
-        copyright: `Copyright © 2023 - ${new Date().getFullYear()} RETROFOR RETRO, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2023 - ${new Date().getFullYear()} Retro for wut?`,
       },
       prism: {
         theme: lightCodeTheme,
