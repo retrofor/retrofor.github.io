@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1231],{9477:function(e){e.exports=JSON.parse('{"label":"facebook","permalink":"/retorfor.github.io/blog/tags/facebook","allTagsPath":"/retorfor.github.io/blog/tags","count":1}')}}]);

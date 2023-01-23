@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5163],{5160:function(s){s.exports=JSON.parse('{"label":"docusaurus","permalink":"/retorfor.github.io/blog/tags/docusaurus","allTagsPath":"/retorfor.github.io/blog/tags","count":4}')}}]);
