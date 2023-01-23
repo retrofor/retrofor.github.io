@@ -29,8 +29,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v${{ steps.date.outputs.today }}
-          release_name: v${{ steps.date.outputs.today }}
+          tag_name: ${{ steps.date.outputs.today }}
+          release_name: ${{ steps.date.outputs.today }}
           body: ${{steps.releasedraft.outputs.content}} 
           draft: false
           prerelease: false
