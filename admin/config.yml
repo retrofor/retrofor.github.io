@@ -94,9 +94,3 @@ collections:
           required: false,
         }
       - { label: "Post Content", name: "body", widget: "markdown" }
-  
-  - name: "opt-2" # 定义该collection的路径
-    label: "docs" # 后台显示的名字
-    folder: "docs"
-    create: true # 允许创建新文件
-    slug: "{{slug}}" # 文件名字模版，{{slug}} 取自title
