@@ -1,54 +1,24 @@
-name: Site Deploy
-
+name: Deploy Github pages
 on:
   push:
     branches:
       - master
-
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    concurrency:
-      group: "pages"
-      cancel-in-progress: true
-
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Setup Node Environment
-        uses: ./.github/actions/setup-node
-        
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v2
-        
-      - name: Build Doc
-        run: yarn build
-      
-      - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v1
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
-#       - name: Deploy to Netlify
-#         uses: nwtgck/actions-netlify@v2
-#         with:
-#           publish-dir: "./website/build"
-#           production-deploy: true
-#           github-token: ${{ secrets.GITHUB_TOKEN }}
-#           deploy-message: "Deploy ${{ env.BRANCH_NAME }}@${{ github.sha }}"
-#           enable-commit-comment: false
-#           alias: ${{ env.BRANCH_NAME }}
-#         env:
-#           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-#           NETLIFY_SITE_ID: ${{ secrets.SITE_ID }}
+    - name: Checkout
+      uses: actions/checkout@master
+      with:
+        persist-credentials: false
+    - name: Install and Build
+      run: |
+        npm install
+        npm run-script build 
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: build
+        BUILD_SCRIPT: npm install && npm run build
