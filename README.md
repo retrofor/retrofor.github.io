@@ -21,6 +21,9 @@
     <img src="https://github.com/retrofor/retrofor.github.io/actions/workflows/github-code-scanning/codeql/badge.svg?branch=master" alt="CodeQL" />
   </a>
 </p>
+
+[![GitHub Super-Linter](https://github.com/retrofor/retrofor.github.io/workflows/dotndet-formatter/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ## 👀 See the docs
 > choices below.
 
