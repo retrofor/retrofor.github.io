@@ -19,7 +19,7 @@ collections:
           label: "Authors",
           name: "authors",
           widget: "string",
-          default: "简律纯",
+          default: "Hsiang_Nianian",
         }
       - { label: "Type", name: "type", widget: "string", default: "post" }
       - { label: "Categories", name: "categories", widget: "list" }
