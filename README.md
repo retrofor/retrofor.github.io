@@ -16,8 +16,11 @@
   <a style="text-decoration:none" href="https://github.com/retrofor/retrofor.github.io/actions/workflows/pages/pages-build-deployment" target="_blank">
     <img src="https://github.com/retrofor/retrofor.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages" alt="pages-build-deployment" />
   </a>
+  <br>
+  <a style="text-decoration:none" href="https://github.com/retrofor/retrofor.github.io/actions/workflows/github-code-scanning/codeql" target="_blank">
+    <img src="https://github.com/retrofor/retrofor.github.io/actions/workflows/github-code-scanning/codeql/badge.svg?branch=master" alt="CodeQL" />
+  </a>
 </p>
-
 ## 👀 See the docs
 > choices below.
 
