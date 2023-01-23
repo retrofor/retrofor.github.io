@@ -52,7 +52,7 @@ const config = {
             'https://github.com/retrofor/retrofor.github.io/blob/master/',
           feedOptions: {
             type: 'all',
-            title: 'retro's blog',
+            title: 'retro the blog',
             description: 'blog feeds',
             copyright: 'retrofor',
           },
