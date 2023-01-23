@@ -21,7 +21,7 @@
 ## 👀 See the docs
 > choices below.
 
-- <https://doc.retrofor.space> _(recommend.)_
+- <https://doc.retrofor.space> _(recommend)_
 - <https://retrofor.netlify.app>
 - <https://retrofor.github.io>
 
