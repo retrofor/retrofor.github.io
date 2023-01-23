@@ -4,10 +4,17 @@
         <title>retrofor Blog</title>
         <link>https://retrofor.space/blog</link>
         <description>retrofor Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Jan 2023 10:29:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[test]]></title>
+            <link>https://retrofor.space/blog/test</link>
+            <guid>/test</guid>
+            <pubDate>Mon, 23 Jan 2023 10:29:34 GMT</pubDate>
+            <content:encoded><![CDATA[<p>#﻿ baka</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://retrofor.space/blog/welcome</link>

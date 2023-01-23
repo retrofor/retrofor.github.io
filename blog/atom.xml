@@ -2,11 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://retrofor.space/blog</id>
     <title>retrofor Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2023-01-23T10:29:34.197Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://retrofor.space/blog"/>
     <subtitle>retrofor Blog</subtitle>
     <icon>https://retrofor.space/img/retro.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[test]]></title>
+        <id>/test</id>
+        <link href="https://retrofor.space/blog/test"/>
+        <updated>2023-01-23T10:29:34.197Z</updated>
+        <content type="html"><![CDATA[<p>#﻿ baka</p>]]></content>
+        <author>
+            <name>Hsiang Nianian</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
