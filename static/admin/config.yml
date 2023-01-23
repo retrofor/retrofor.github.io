@@ -16,8 +16,8 @@ collections:
     fields: # 定义front matter的显示与数据类型
       - { label: "Title", name: "title", widget: "string" }
       - {
-          label: "Author",
-          name: "author",
+          label: "Authors",
+          name: "authors",
           widget: "string",
           default: "简律纯",
         }
