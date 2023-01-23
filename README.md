@@ -20,9 +20,10 @@
   <a style="text-decoration:none" href="https://github.com/retrofor/retrofor.github.io/actions/workflows/github-code-scanning/codeql" target="_blank">
     <img src="https://github.com/retrofor/retrofor.github.io/actions/workflows/github-code-scanning/codeql/badge.svg?branch=master" alt="CodeQL" />
   </a>
+  <a style="text-decoration:none" href="https://www.codacy.com/gh/retrofor/retrofor.github.io/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=retrofor/retrofor.github.io&amp;utm_campaign=Badge_Grade" target="_blank">
+    <img src="https://app.codacy.com/project/badge/Grade/9fa3371f59a74c728887636bc3969b73" alt="Codacy Badge" />
+  </a>
 </p>
-
-[![GitHub Super-Linter](https://github.com/retrofor/retrofor.github.io/workflows/dotndet-format/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 ## 👀 See the docs
 > choices below.
