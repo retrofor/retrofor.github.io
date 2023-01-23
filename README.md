@@ -22,7 +22,7 @@
   </a>
 </p>
 
-[![GitHub Super-Linter](https://github.com/retrofor/retrofor.github.io/workflows/dotndet-formatter/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![GitHub Super-Linter](https://github.com/retrofor/retrofor.github.io/workflows/dotndet-format/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 ## 👀 See the docs
 > choices below.
