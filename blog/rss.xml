@@ -13,7 +13,8 @@
             <link>https://retrofor.space/blog/test</link>
             <guid>/test</guid>
             <pubDate>Mon, 23 Jan 2023 10:29:34 GMT</pubDate>
-            <content:encoded><![CDATA[<p>#﻿ baka</p>]]></content:encoded>
+            <description><![CDATA[T﻿est]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="test">T﻿est<a class="hash-link" href="#test" title="Direct link to heading">​</a></h2>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>

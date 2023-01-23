@@ -12,7 +12,8 @@
         <id>/test</id>
         <link href="https://retrofor.space/blog/test"/>
         <updated>2023-01-23T10:29:34.197Z</updated>
-        <content type="html"><![CDATA[<p>#﻿ baka</p>]]></content>
+        <summary type="html"><![CDATA[T﻿est]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="test">T﻿est<a class="hash-link" href="#test" title="Direct link to heading">​</a></h2>]]></content>
         <author>
             <name>Hsiang Nianian</name>
         </author>
