@@ -10,8 +10,8 @@
     <img src="https://img.shields.io/github/release/retrofor/retrofor.github.io.svg?label=Latest%20version" alt="Latest version" />
   </a>
   <br>
-  <a style="text-decoration:none" href="https://github.com/retrofor/retorfor.github.io/actions/workflows/pages/pages-build-deployment" target="_blank">
-    <img src="https://github.com/retrofor/retorfor.github.io/actions/workflows/pages/pages-build-deployment/badge.svg" alt="ages-build-deployment" />
+  <a style="text-decoration:none" href="https://github.com/retrofor/retrofor.github.io/actions/workflows/Testing.yml" target="_blank">
+    <img src="https://github.com/retrofor/retrofor.github.io/actions/workflows/Testing.yml/badge.svg" alt="Test deployment" />
   </a>
 </p>
 
