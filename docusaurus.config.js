@@ -62,7 +62,7 @@ const config = {
       navbar: {
         title: 'retro',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Site Logo',
           src: 'img/logo.svg',
         },
         items: [
