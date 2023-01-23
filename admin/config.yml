@@ -8,7 +8,7 @@ media_folder: "static/img/post" # 存放图片的文件夹
 public_folder: "/img/post" # 上传图片的src属性会以该路径开头
 # 以下是我的Collections内容，如需要请根据自己的头文件内容自定义
 collections:
-  - name: "blog" # 定义该collection的路径
+  - name: "re" # 定义该collection的路径
     label: "Blog" # 后台显示的名字
     folder: "blog" # "content/blog/2018" # 文章存放文件夹
     create: true # 允许创建新文件
