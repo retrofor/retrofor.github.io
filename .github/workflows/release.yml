@@ -1,0 +1,36 @@
+name: release
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      PACK_NAME: ""
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=today::$(date +'%Y%m%d%M')"
+
+      - name: Release Drafter
+        id: releasedraft
+        uses: toolmantim/release-drafter@v5.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+      - name: 创建GitHub Release
+        id: create_release
+        uses: actions/create-release@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.date.outputs.today }}
+          release_name: v${{ steps.date.outputs.today }}
+          body: ${{steps.releasedraft.outputs.content}} 
+          draft: false
+          prerelease: false
