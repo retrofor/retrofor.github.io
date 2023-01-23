@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>retrofor Blog</title>
-        <link>https://retrofor.space/blog</link>
-        <description>retrofor Blog</description>
+        <title>retro the blog</title>
+        <link>https://doc.retrofor.space/blog</link>
+        <description>blog feeds</description>
         <lastBuildDate>Mon, 23 Jan 2023 10:29:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <copyright>retrofor</copyright>
         <item>
             <title><![CDATA[test]]></title>
-            <link>https://retrofor.space/blog/test</link>
+            <link>https://doc.retrofor.space/blog/test</link>
             <guid>/test</guid>
             <pubDate>Mon, 23 Jan 2023 10:29:34 GMT</pubDate>
             <description><![CDATA[Test]]></description>
@@ -18,7 +19,7 @@
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://retrofor.space/blog/welcome</link>
+            <link>https://doc.retrofor.space/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
@@ -29,7 +30,7 @@
         </item>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://retrofor.space/blog/mdx-blog-post</link>
+            <link>https://doc.retrofor.space/blog/mdx-blog-post</link>
             <guid>mdx-blog-post</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
