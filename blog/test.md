@@ -11,7 +11,7 @@ showtoc: true
 ---
 ## T﻿est
 
-```jsx live
+```js
 function Clock(props) {
   const [date, setDate] = useState(new Date());
   useEffect(() => {
