@@ -22,6 +22,7 @@
   </a>
 </p>
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e951a1575158425d829d99ce8069c360)](https://app.codacy.com/gh/retrofor/retrofor.github.io?utm_source=github.com&utm_medium=referral&utm_content=retrofor/retrofor.github.io&utm_campaign=Badge_Grade_Settings)
 [![GitHub Super-Linter](https://github.com/retrofor/retrofor.github.io/workflows/dotndet-format/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 ## 👀 See the docs
