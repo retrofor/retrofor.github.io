@@ -1,43 +1,44 @@
-name: Code format check
-
-on: 
+#############################
+# Start the job on all push #
+#############################
+on:
   push:
-    branches: 
-      - master
+    branches-ignore: [edit]
+    # Remove the line above to run when pushing to master
+  pull_request:
+    branches: [master]
+
+###############
+# Set the Job #
+###############
 jobs:
-  dotnet-format:
-    runs-on: windows-latest
+  build:
+    # Name the Job
+    name: Lint Code Base
+    # Set the agent to run on
+    runs-on: ubuntu-latest
+
+    ##################
+    # Load all steps #
+    ##################
     steps:
-
-      - name: Checkout repo
-        uses: actions/checkout@v2
+      ##########################
+      # Checkout the code base #
+      ##########################
+      - name: Checkout Code
+        uses: actions/checkout@v3
         with:
-          ref: ${{ github.head_ref }}
-          
-      - name: Install dotnet-format
-        run: dotnet tool install -g dotnet-format
+          # Full git history is needed to get a proper
+          # list of changed files within `super-linter`
+          fetch-depth: 0
 
-      - name: Fix encoding
-        run: EncodingNormalior -f . --TryFix true
-
-      - name: Commit files
-        run: |
-          git config --local user.name "github-actions-dotnet-formatter[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -a -m 'Automated dotnet-format update'
-        continue-on-error: true
-        
-      - name: Create Pull Request
-        if: steps.format.outputs.has-changes == 'true' # 如果有格式化，才继续
-        uses: peter-evans/create-pull-request@v3
-        with:
-          title: '[Bot] Automated PR to fix formatting errors'
-          body: |
-            Automated PR to fix formatting errors
-          committer: GitHub <noreply@github.com>
-          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          # 以下是给定代码审查者，需要设置仓库有权限的开发者
-          assignees: HsiangNianian
-          reviewers: HsiangNianian
-          # 对应的上传分支
-          branch: master
+      ################################
+      # Run Linter against code base #
+      ################################
+      - name: Lint Code Base
+        uses: github/super-linter@v4
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          # Change to 'master' if your main branch differs
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
