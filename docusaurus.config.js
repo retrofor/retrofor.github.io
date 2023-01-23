@@ -27,7 +27,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en','zh-Hans'],
   },
 
   presets: [
@@ -40,14 +40,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/retrofor/retrofor.github.io/blob/master/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/retrofor/retrofor.github.io/blob/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -119,7 +119,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} RETROFOR RETRO, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2023 - ${new Date().getFullYear()} RETROFOR RETRO, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
