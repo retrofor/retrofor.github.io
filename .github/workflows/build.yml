@@ -20,8 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: yarn install # --frozen-lockfile
-      - name: Install Plugins
-        run: npm install --save @docusaurus/theme-live-codeblock
       - name: Build website
         run: yarn build
 
@@ -40,5 +38,3 @@ jobs:
           # You can swap them out with your own user credentials.
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
-      - name: url
-        run: echo "retrofor.space" > CNAME
