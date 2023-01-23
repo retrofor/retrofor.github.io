@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"test","permalink":"/en/blog/test"},{"title":"Welcome","permalink":"/en/blog/welcome"},{"title":"MDX Blog Post","permalink":"/en/blog/mdx-blog-post"}]}')}}]);
