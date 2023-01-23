@@ -50,6 +50,12 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/retrofor/retrofor.github.io/blob/master/',
+          feedOptions: {
+            type: 'all',
+            title: 'retro's blog',
+            description: 'blog feeds',
+            copyright: 'retrofor',
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
