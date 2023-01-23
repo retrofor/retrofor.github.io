@@ -20,6 +20,8 @@ jobs:
 
       - name: Install dependencies
         run: yarn install # --frozen-lockfile
+      - name: Install Plugins
+        run: npm install --save @docusaurus/theme-live-codeblock
       - name: Build website
         run: yarn build
 
