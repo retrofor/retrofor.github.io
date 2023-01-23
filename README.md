@@ -17,10 +17,5 @@
   </a>
 </p>
 
-## 👨‍🚀 Contributors
-<a href="https://github.com/retrofor/retrofor.github.io/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=retrofor/retrofor.github.io" />
-</a>
-
 ## 📄 License
 [GNU GPLv3.0](https://github.com/retrofor/retrofor.github.io/blob/master/LICENSE) © 2023-PRESENT [简律纯](https://github.com/HsiangNianian)
