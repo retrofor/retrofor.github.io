@@ -1,4 +1,4 @@
-<p align="center"><img width="128" src="/119327113.png"></p>
+<p align="center"><img width="128" src="https://github.com/retrofor/retro/raw/main/119327113.png"></p>
 <h1 align="center">
   retro
 </h1>
@@ -18,7 +18,7 @@
 </p>
 
 ## 👨‍🚀 Contributors
-<a href="https://github.com/retrofor/retro/graphs/contributors">
+<a href="https://github.com/retrofor/retrofor.github.io/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=retrofor/retrofor.github.io" />
 </a>
 
