@@ -17,7 +17,11 @@ jobs:
 
       - name: Setup Node Environment
         uses: ./.github/actions/setup-node
-
+        
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v2
+        
       - name: Build Doc
         run: yarn build
       
