@@ -11,7 +11,7 @@
   </a>
   <br>
   <a style="text-decoration:none" href="https://app.netlify.com/sites/retrofor/deploys" target="_blank">
-    <img src="https://api.netlify.com/api/v1/badges/2dd7d9ff-004d-45d7-806c-4a25dad07847/deploy-status" alt="Netlify Status" />
+    <img src="https://api.netlify.com/api/v1/badges/78e0b7fa-f130-4745-9550-0de11e75bce7/deploy-status" alt="Netlify Status" />
   </a>
   <a style="text-decoration:none" href="https://github.com/retrofor/retrofor.github.io/actions/workflows/Testing.yml" target="_blank">
     <img src="https://github.com/retrofor/retrofor.github.io/actions/workflows/Testing.yml/badge.svg" alt="Test deployment" />
