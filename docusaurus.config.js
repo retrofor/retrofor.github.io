@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'retrofor',
   tagline: 'Cross-platform robot framework, mainly used for ML.',
-  url: 'https://retrofor.space',
+  url: 'https://doc.retrofor.space',
   baseUrl: '/',
   projectName: 'retro',
   organizationName: 'retrofor',
