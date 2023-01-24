@@ -11,6 +11,10 @@ showtoc: true
 ---
 ## Test
 
+:::tip 
+
+bug test
+
 ```js
 function Clock(props) {
   const [date, setDate] = useState(new Date());
