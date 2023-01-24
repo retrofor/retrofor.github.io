@@ -16,12 +16,12 @@ jobs:
         id: date
         run: echo "::set-output name=today::$(date +'%Y%m%d%M%S')"
 
-      - uses: release-drafter/release-drafter@v5 
-        name: Draft 
-        with: 
-          config-name: release-drafter.yml 
-        env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: release-drafter/release-drafter@v5 
+        name: Draft 
+        with: 
+          config-name: release-drafter.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 创建GitHub Release
         id: create_release
