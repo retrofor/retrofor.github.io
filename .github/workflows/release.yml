@@ -16,7 +16,8 @@ jobs:
         id: date
         run: 'echo "::set-output name=today::$(date +''%Y%m%d%M%S'')"'
       - uses: release-drafter/release-drafter@v5
-        name: Draft
+        name: ReleaseDraft
+        id: releasedraft
         with:
           config-name: release-drafter.yml
         env:
