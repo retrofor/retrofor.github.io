@@ -24,7 +24,7 @@
     <img src="https://app.codacy.com/project/badge/Grade/9fa3371f59a74c728887636bc3969b73" alt="Codacy Badge" />
   </a>
 </p>
-<p align="center"><img src="./static/img/logo.png"></p>
+<p align="center"><img width="512" src="./static/img/logo.png"></p>
 
 ## 👀 See the docs
 > choices below.
