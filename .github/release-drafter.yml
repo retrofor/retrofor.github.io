@@ -1,41 +1,23 @@
-template: $CHANGES
-category-template: "### $TITLE"
-name-template: "Release v$RESOLVED_VERSION 🌈"
-tag-template: "v$RESOLVED_VERSION"
-change-template: "- $TITLE [@$AUTHOR](https://github.com/$AUTHOR) ([#$NUMBER]($URL))"
-change-title-escapes: '\<&'
-exclude-labels:
-  - "dependencies"
-  - "skip-changelog"
+name-template: 'release-v$NEXT_PATCH_VERSION'
+tag-template: 'release-v$NEXT_PATCH_VERSION'
 categories:
-  - title: "💥 破坏性变更"
+  - title: 'Features'
     labels:
-      - "Breaking"
-  - title: "🚀 新功能"
+      - 'feature'
+      - 'feat'
+      - 'enhancement'
+  - title: 'Bug Fixes'
     labels:
-      - "feature"
-      - "enhancement"
-  - title: "🐛 bug 修复"
+      - 'fix'
+      - 'bugfix'
+      - 'bug'
+  - title: 'Maintenance'
     labels:
-      - "fix"
-      - "bugfix"
-      - "bug"
-  - title: "📝 文档"
-    labels:
-      - "documentation"
-  - title: "💫 杂项"
-  - title: "🍻 blog 发布"
-    label: "blog-new"
-  - title: "🍻 机器人发布"
-    label: "Bot"
-version-resolver:
-  major:
-    labels:
-      - "major"
-  minor:
-    labels:
-      - "minor"
-  patch:
-    labels:
-      - "patch"
-  default: patch
+      - 'chore'
+      - 'documentation'
+      - 'docs'
+change-template: '- $TITLE (#$NUMBER) @$AUTHOR'
+template: |
+  # Changes
+
+  $CHANGES
