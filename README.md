@@ -1,4 +1,4 @@
-<p align="center"><img width="128" src="https://github.com/retrofor/retro/raw/main/119327113.png"></p>
+<p align="center"><img width="128" src="https://doc.retrofor.space/img/retro.png"></p>
 <h1 align="center">
   retro docs
 </h1>
