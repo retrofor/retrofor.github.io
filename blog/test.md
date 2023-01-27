@@ -14,7 +14,7 @@ showtoc: true
 :::tip TIPS test
 
 bug test
-
+![](/img/post/logo.png)
 
 ```js
 function Clock(props) {
