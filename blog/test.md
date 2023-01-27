@@ -11,9 +11,10 @@ showtoc: true
 ---
 ## Test
 
-:::tip 
+:::tip TIPS test
 
 bug test
+
 
 ```js
 function Clock(props) {
