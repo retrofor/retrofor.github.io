@@ -69,8 +69,7 @@ const config = {
     ({
      announcementBar: {
        id: 'support_us',
-       content:
-               '✨We are looking to revamp our docs, please starred and fork the <a target="_blank" rel="noopener noreferrer" href="https://github.com/retrofor/retrofor_wut">repo on github</a>',
+       content: '✨We are looking to revamp our docs, please starred and fork the <a target="_blank" rel="noopener noreferrer" href="https://github.com/retrofor/retrofor_wut">repo on github</a>',
        backgroundColor: '#333333',
        textColor: '#001200',
        isCloseable: true,
