@@ -56,6 +56,10 @@ const config = {
             description: 'blog feeds',
             copyright: 'retrofor',
           },
+         changelog: {
+           editUrl:
+            'https://github.com/retrofor/retrofor.github.io/blob/master/',
+         },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -81,6 +85,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/changelog', label: 'Change', position: 'left'},
           {
             href: 'https://github.com/retrofor/retrofor_wut',
             label: 'GitHub',
@@ -119,6 +124,10 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+              {
+                label: 'Change',
+                to: '/changelog',
               },
               {
                 label: 'Pages Settings',
