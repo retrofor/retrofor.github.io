@@ -68,12 +68,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
-      id: 'support_us',
-      content:
-        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-      backgroundColor: '#fafbfc',
-      textColor: '#091E42',
-      isCloseable: false,
+        id: 'announcementBar-2', // Increment on change
+        content: `⭐️ If you like retrofor_wut, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/retrofor/retrofor_wut">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/HsiangNianian">Twitter ${TwitterSvg}</a>`,
       },
       navbar: {
         title: 'retro',
