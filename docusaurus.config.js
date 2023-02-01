@@ -60,10 +60,6 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        changelog: {
-           editUrl:
-            'https://github.com/retrofor/retrofor.github.io/blob/master/',
-        },
       }),
     ],
   ],
