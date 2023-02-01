@@ -82,7 +82,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/retrofor/retro',
+            href: 'https://github.com/retrofor/retrofor_wut',
             label: 'GitHub',
             position: 'right',
           },
@@ -121,8 +121,8 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/HsiangNianian',
+                label: 'Pages Settings',
+                href: 'https://github.com/retrofor/retrofor.github.io',
               },
               {
                 html: `
