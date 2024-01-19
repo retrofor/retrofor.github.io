@@ -81,6 +81,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/changelog', label: 'Change', position: 'left'},
           {
             href: 'https://github.com/retrofor/retrofor_wut',
             label: 'GitHub',
@@ -119,6 +120,10 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+              {
+                label: 'Change',
+                to: '/changelog',
               },
               {
                 label: 'Pages Settings',
